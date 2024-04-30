@@ -1,0 +1,12 @@
+[package]
+name = "bilateral_filter"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { version = "1.0.82", features = ["backtrace"] }
+env_logger = "0.11.3"
+image = "0.25.1"
+indicatif = { version = "0.17.8", features = ["rayon"] }
+log = "0.4.21"
+rayon = "1.10.0"
